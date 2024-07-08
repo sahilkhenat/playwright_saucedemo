@@ -5,7 +5,7 @@ from test_automation.pages.base_page import BasePage
 
 
 class SLProductDetailPage(SLBasePage):
-
+    """SL Product Detail page"""
     def __init__(self, page):
         super().__init__(page)
         self.url = "/inventory.html"

@@ -2,7 +2,7 @@ from test_automation.pages.base_page import BasePage
 
 
 class SLLoginPage(BasePage):
-
+    """Login page for SauceDemo website"""
     def __init__(self, page):
         super().__init__(page)
 

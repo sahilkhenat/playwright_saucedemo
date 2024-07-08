@@ -6,6 +6,8 @@ import test_automation.utils.reporting as report
 from test_automation.pages.sl_login import SLLoginPage
 from test_automation.pages.sl_product_list_page import SLProductListPage
 
+"""Login functionality related tests"""
+
 
 @allure.description("Verify that user is able to login with valid credentials")
 def test_login_happy_flow(page):

@@ -8,6 +8,10 @@ from test_automation.pages.sl_product_list_page import SLProductListPage
 from test_automation.pages.sl_cart_page import SLCartPage
 from test_automation.pages.sl_product_detail_page import SLProductDetailPage
 
+"""
+Product detail view related tests
+"""
+
 
 @allure.description("Verify that user is able to go to product deta after login")
 def test_add_to_cart_from_product_detail_view(page, test_data):

@@ -8,6 +8,11 @@ from test_automation.pages.sl_product_list_page import SLProductListPage
 from test_automation.pages.sl_cart_page import SLCartPage
 
 
+"""
+Product list view related tests
+"""
+
+
 @allure.description("Verify that user is able to go to product list after login")
 def test_go_to_product_list_(page):
     sl_product_list = SLProductListPage(page)
@@ -53,4 +58,3 @@ def test_remove_an_item_to_cart(page, test_data):
     page.pause()
     sl_cart.remove_item_from_cart(test_data['product_name'])
     assert not sl_cart.is_product_in_cart(test_data['product_name']), report.report_fail(page, f"{test_data['product_name']} is still found in cart")
-

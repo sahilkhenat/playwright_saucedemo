@@ -5,7 +5,7 @@ from test_automation.pages.base_page import BasePage
 
 
 class SLCartPage(SLBasePage):
-
+    """Cart page for Saucelabs website"""
     def __init__(self, page):
         super().__init__(page)
         self.url = "/cart.html"

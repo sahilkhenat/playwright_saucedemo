@@ -3,6 +3,8 @@ import pytest
 import test_automation.utils.data_generation as utils
 from test_automation.pages.sl_login import SLLoginPage
 
+"""Conftest file"""
+
 
 @pytest.fixture(scope="session")
 def browser_context_args(browser_context_args):
