@@ -1,5 +1,5 @@
-# tablecheck-qa-automation-take-home
-Take-home project for the TableCheck QA Automation role.
+# playwright-qa-automation-assignment
+test_url : https://www.saucedemo.com/
 
 ## Setup Instructions:
 
